@@ -246,6 +246,7 @@
     <image-dwn/>
   </keyboard>
   <keyboard key-label="" shift-key="false" key-value="0" layer="1" row="4" pos="2">
+  <SENSITIVE>false</SENSITIVE>
     <width>61</width>
     <height>58</height>
     <indent>0</indent>
@@ -253,6 +254,7 @@
     <image-dwn/>
   </keyboard>
   <keyboard key-label="" shift-key="false" key-value="0" layer="1" row="4" pos="3">
+  <SENSITIVE>false</SENSITIVE>
     <width>61</width>
     <height>58</height>
     <indent>0</indent>
@@ -266,5 +268,23 @@
     <image-up/>
     <image-dwn/>
   </keyboard>
+  
+ <keyboard key-label="&lt;" shift-key="false" key-value="37" layer="1" row="4" pos="4">
+	
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  
+ <keyboard key-label="&gt;" shift-key="false" key-value="39" layer="1" row="4" pos="5">
+	
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>    
   
 </keyboardLayout>

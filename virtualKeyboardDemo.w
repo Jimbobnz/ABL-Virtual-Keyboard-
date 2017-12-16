@@ -100,7 +100,7 @@ DEFINE FRAME DEFAULT-FRAME
     WITH 1 DOWN NO-BOX KEEP-TAB-ORDER OVERLAY 
          SIDE-LABELS NO-UNDERLINE THREE-D 
          AT COL 1 ROW 1
-         SIZE 262 BY 37.14 WIDGET-ID 100.
+         SIZE 164.2 BY 30.86 WIDGET-ID 100.
 
 DEFINE FRAME FRAME-F
     WITH 1 DOWN NO-BOX KEEP-TAB-ORDER OVERLAY 
@@ -127,8 +127,8 @@ IF SESSION:DISPLAY-TYPE = "GUI":U THEN
   CREATE WINDOW C-Win ASSIGN
          HIDDEN             = YES
          TITLE              = "<insert window title>"
-         HEIGHT             = 37.14
-         WIDTH              = 262
+         HEIGHT             = 30.86
+         WIDTH              = 164.2
          MAX-HEIGHT         = 37.19
          MAX-WIDTH          = 262
          VIRTUAL-HEIGHT     = 37.19
@@ -209,6 +209,8 @@ END.
 ON WINDOW-CLOSE OF C-Win /* <insert window title> */
 DO:
   /* This event will close the window and terminate the procedure.  */
+  
+  APPLY "CLOSE":U TO virtualKeyboard .
   APPLY "CLOSE":U TO THIS-PROCEDURE.
   RETURN NO-APPLY.
 END.

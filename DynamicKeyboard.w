@@ -162,7 +162,7 @@ IF SESSION:DISPLAY-TYPE = "GUI":U THEN
          HIDDEN             = YES
          TITLE              = "<insert window title>"
          HEIGHT             = 18.95
-         WIDTH              = 213.6
+         WIDTH              = 213.8
          MAX-HEIGHT         = 48.43
          MAX-WIDTH          = 384
          VIRTUAL-HEIGHT     = 48.43
@@ -233,7 +233,7 @@ ON WINDOW-CLOSE OF C-Winn /* <insert window title> */
 DO:
   /* This event will close the window and terminate the procedure.  */
   APPLY "CLOSE":U TO THIS-PROCEDURE.
-  RETURN NO-APPLY.
+  
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -289,8 +289,8 @@ DO ON ERROR   UNDO MAIN-BLOCK, LEAVE MAIN-BLOCK
 
     RUN createLayout (INPUT ?).
     
-  IF NOT THIS-PROCEDURE:PERSISTENT THEN
-    WAIT-FOR CLOSE OF THIS-PROCEDURE.
+/*   IF NOT THIS-PROCEDURE:PERSISTENT THEN */
+/*     WAIT-FOR CLOSE OF THIS-PROCEDURE.   */
 END.
 
 /* _UIB-CODE-BLOCK-END */
@@ -376,6 +376,7 @@ PROCEDURE createLayout :
               NO-FOCUS  = TRUE
               TAB-STOP  = FALSE
               SENSITIVE = keyboard.SENSITIVE
+              BGCOLOR   = (IF keyboard.KeyValue = 0 THEN 12 ELSE ?)
               VISIBLE   = TRUE
               TRIGGERS:
                 ON CHOOSE PERSISTENT RUN Keyboard-Process-Key IN THIS-PROCEDURE ( INPUT keyboard.KeyValue, INPUT keyboard.shiftKey ).
