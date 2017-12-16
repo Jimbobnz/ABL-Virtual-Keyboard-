@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<keyboardLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <keyboard key-label="Tab" shift-key="false" key-value="9" layer="3" row="1" pos="1">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="!" shift-key="true" key-value="49" layer="3" row="1" pos="2">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="@" shift-key="true" key-value="50" layer="3" row="1" pos="3">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="#" shift-key="true" key-value="51" layer="3" row="1" pos="4">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="$" shift-key="true" key-value="52" layer="3" row="1" pos="5">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="%" shift-key="true" key-value="53" layer="3" row="1" pos="6">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="&amp;&amp;" shift-key="true" key-value="55" layer="3" row="1" pos="7">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="1" shift-key="false" key-value="49" layer="3" row="1" pos="7">
+    <width>61</width>
+    <height>58</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="2" shift-key="false" key-value="50" layer="3" row="1" pos="9">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="3" shift-key="false" key-value="51" layer="3" row="1" pos="10">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="Delete" shift-key="false" key-value="8" layer="3" row="1" pos="10">
+    <width>61</width>
+    <height>58</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="|&lt;--" shift-key="false" key-value="0" layer="3" row="2" pos="1">
+    <SENSITIVE>false</SENSITIVE>
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="(" shift-key="true" key-value="57" layer="3" row="2" pos="2">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label=")" shift-key="true" key-value="48" layer="3" row="2" pos="3">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="-" shift-key="true" key-value="0" layer="3" row="2" pos="4">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="_" shift-key="true" key-value="0" layer="3" row="2" pos="5">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="=" shift-key="true" key-value="0" layer="3" row="2" pos="6">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="+" shift-key="true" key-value="0" layer="3" row="2" pos="7">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="4" shift-key="false" key-value="52" layer="3" row="2" pos="7">
+    <width>61</width>
+    <height>58</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="5" shift-key="false" key-value="53" layer="3" row="2" pos="9">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="6" shift-key="false" key-value="54" layer="3" row="2" pos="10">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="Enter" shift-key="false" key-value="13" layer="3" row="2" pos="10">
+    <width>61</width>
+    <height>120</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="-->|" shift-key="false" key-value="-4" layer="3" row="3" pos="1">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label="\" shift-key="false" key-value="220" layer="3" row="3" pos="2">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label=";" shift-key="false" key-value="186" layer="3" row="3" pos="3">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  <keyboard key-label=":" shift-key="false" key-value="0" layer="3" row="3" pos="4">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+   <keyboard key-label="&quot;" shift-key="true" key-value="222" layer="3" row="3" pos="5">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard> 
+   <keyboard key-label="*" shift-key="true" key-value="56" layer="3" row="3" pos="5">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard> 
+   <keyboard key-label="/" shift-key="false" key-value="191" layer="3" row="3" pos="6">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+   <keyboard key-label="7" shift-key="false" key-value="55" layer="3" row="3" pos="7">
+    <width>61</width>
+    <height>58</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard> 
+   <keyboard key-label="8" shift-key="false" key-value="56" layer="3" row="3" pos="8">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>   
+   <keyboard key-label="9" shift-key="false" key-value="57" layer="3" row="3" pos="9">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>  
+  
+  <keyboard key-label="&amp;&amp;123" shift-key="false" key-value="?" layer="3" row="4" pos="1">
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  
+    <keyboard key-label="Ctrl" shift-key="false" key-value="0" layer="3" row="4" pos="2">
+	<sensitive>false</sensitive>
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  
+  <keyboard key-label="" shift-key="false" key-value="0" layer="3" row="4" pos="3">
+	<sensitive>false</sensitive>
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+
+ <keyboard key-label="&lt;" shift-key="false" key-value="37" layer="3" row="4" pos="4">
+	
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  
+ <keyboard key-label="&gt;" shift-key="false" key-value="39" layer="3" row="4" pos="5">
+	
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>  
+   <keyboard key-label="Space" shift-key="false" key-value="32" layer="3" row="4" pos="6">
+	
+    <width>124</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>
+  
+   <keyboard key-label="0" shift-key="false" key-value="48" layer="3" row="4" pos="7">
+	
+    <width>124</width>
+    <height>58</height>
+    <indent>30</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard>  
+  
+   <keyboard key-label="." shift-key="false" key-value="190" layer="3" row="4" pos="8">
+	
+    <width>61</width>
+    <height>58</height>
+    <indent>0</indent>
+    <image-up/>
+    <image-dwn/>
+  </keyboard> 
+  
+</keyboardLayout>
